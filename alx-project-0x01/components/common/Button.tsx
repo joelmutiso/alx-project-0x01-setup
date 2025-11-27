@@ -1,9 +1,10 @@
-import { ButtonProps } from "@/interfaces";
+import React from 'react';
 
-const Button: React.FC<ButtonProps> = ({ title, styles}) => {
-    return (
-        <button className={''}></button> 
-    );
-};
+const Button: React.FC = () => {
+  return (
+    <div>
+    </div>
+  );
+}
 
 export default Button;
